@@ -73,6 +73,14 @@ h3{margin-top:1.4rem}
   height:220px; border-radius:16px; border:1px dashed var(--border);
   display:grid; place-items:center; color:var(--fg-muted);
 }
+.photo-placeholder {
+    aspect-ratio: 16 / 9; /* 固定 16:9 比例 */
+    object-fit: cover;    /* 图片填充并裁剪多余部分 */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 /* 页脚 */
 .site-footer{border-top:1px solid var(--border); padding:18px; text-align:center; color:#6b7280; background:#fff}
